@@ -5,8 +5,6 @@
   </header>
 </head>
 <body>
-<p> Recipe 1 </p>
-<p> Recipe 2 </p>
-<p> Recipe 3 </p>
-<p> Recipe 4 </p>
+
 </body>
+</html>
