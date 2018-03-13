@@ -14,6 +14,8 @@
     <h2> The guilt-free way to eat day-to-day.
     </h2>
 
-    <img src= "images/starter-image-1">
+    <img src= "">
+    <img src= "">
+    <img src= "">
   </body>
 </html>
