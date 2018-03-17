@@ -1,10 +1,10 @@
 <!DOCTYPE html>
   <head>
   <!--Can someone check that the href linking this html to the ccs is correct?-->
-<link href='/css' rel='stylesheet' type='text/css'>
-    <header> Vegetarian Recipes
-    </header>
+    <title> Vegetarian Recipes
+    </title>
 
+    <link rel='stylesheet' type='text/css' href='teamproject.css' >
   </head>
 
   <body>
@@ -12,8 +12,9 @@
   <h2>The guilt-free way to eat day-to-day</h2>
 
   <div class="starter">
-    <p> name of starter food <span class="vegan">Yes/No</span><br />
-    <small>Description of starter image/meal. </small></p>
+    <img src="Images/bruschetta.jpg" width=360, height=220>
+    <p> Avacado/Tomato Bruschetta....<span class="vegan">*Vegan Friendly</span><br />
+    <small>Toasted Italian bread with tomatoe and avacado toppings. </small></p>
   </div>
 
   <div class="main">
@@ -22,7 +23,8 @@
   </div>
 
   <div class="dessert">
-    <p>name of dessert <span class="vegan">Yes/No </span><br />
+    <img src="Images/pancakes.jpg" width=360, height=220>
+    <p>Pancakes.................................. <span class="vegan">*Vegan Friendly </span><br />
     <small>description of desert/image.</small></p>
   </div>
   <script> $('div').on('click', function() {$(this).toggleClass('show-description');});</script>
