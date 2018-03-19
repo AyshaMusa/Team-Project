@@ -137,4 +137,31 @@ p{
   #social-buttons button {
     color:white
   }
+<<<<<<< HEAD
 >>>>>>> 7cd89d393263fc31c9150e502fb5b7ec71784864
+=======
+
+.navbar {
+  background-color: #b30047;
+  overflow: hidden;
+}
+
+.navbar a {
+  float:center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a:active {
+  background-color: #f76ea0;
+  color: white;
+}
+>>>>>>> 9e97f0efb2311e723088956f9880a8cb82964fdf
