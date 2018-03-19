@@ -13,7 +13,7 @@ body {
 		margin-right:auto;
 		padding:25px;
 		background-image:url("Images/experiment.jpg");
-		border-color:#ffdd99;
+    		border-color:#ffdd99;
 		border-width:15px;
     border-radius: 15px 15px 0 0;
 		text-align: center;
@@ -42,3 +42,24 @@ table {
   #social-buttons button {
     color:white
   }
+
+  .navbar {
+    background-color: #b30047;
+    overflow: hidden;
+  }
+
+  .navbar a {
+    float:center;
+    color: #white
+    text-align: left;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-color: white;
+    font-family: 'Helvetica';
+  }
+
+a:visited {
+  color:white
+}
+  p {}
