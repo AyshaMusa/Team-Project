@@ -15,7 +15,7 @@ div {
   border-radius: 12px;
 }
 h1 {
-  font-family: 'Londrina Shadow', cursive;
+  font-family: 'Helvetica', cursive;
   text-align: center;
   font-size: 75px;
   color: #aaaaaa;
@@ -87,7 +87,7 @@ small {opacity: 0;
 
 
 html {
-  background-image:url("Images/background.jpg");
+  background-image:url("Images/background2.jpg");
   background-attachment: fixed;
    background-repeat: no-repeat;
 
@@ -95,13 +95,14 @@ html {
 
 body {
 		width:1000px;
-		font-family:'Londrina Shadow';
+		font-family:'Helvetica';
 		margin-left:auto;
 		margin-right:auto;
 		padding:25px;
 		background-color:#ffffcc;
 		border-color:#ffdd99;
 		border-width:15px;
+    border-radius: 15px 15px 0 0;
 		text-align: center;
 }
 
@@ -109,3 +110,13 @@ table {
   margin-left:auto;
   margin-right:auto
   }
+
+  h3 {
+    font-family: 'Helvetica';
+    font-size: 40px
+  }
+
+p{
+  font-family: 'Helvetica'
+  font-size: 16px
+}
