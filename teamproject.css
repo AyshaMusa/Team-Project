@@ -111,6 +111,7 @@ table {
   margin-right:auto
   }
 
+<<<<<<< HEAD
   h3 {
     font-family: 'Helvetica';
     font-size: 40px
@@ -120,3 +121,20 @@ p{
   font-family: 'Helvetica'
   font-size: 16px
 }
+=======
+  .btn-twitter {
+    background: #00acee;
+    border-color: #009ad5;
+  }
+  .btn-facebook {
+    background: #4868ac;
+    border-color: #314776;
+  }
+  .btn-pinterest {
+    background: #b62f26;
+    border-color: #b62f26;
+  }
+  #social-buttons button {
+    color:white
+  }
+>>>>>>> 7cd89d393263fc31c9150e502fb5b7ec71784864
