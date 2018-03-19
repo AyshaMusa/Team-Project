@@ -1,4 +1,6 @@
-/* Below are some suggestions for how the home page sould be styled. Feel free to delete or edit this*/
+div {
+
+
 body {
   font-family: helvetica, sans-serif;
   margin: 0 auto;
@@ -52,14 +54,13 @@ small {opacity: 0;
    }
 
 .starter{
-  background-image: "Images/bruschetta.jpg";
+  background-image:url("Images/bruschetta.jpg");
 }
-/*Image havsen't been included yet
-.main{
-  background-image: url("");
+{
+  background-image:url("Images/pizza.jpg");
 }*/
 .dessert{
-  background-image:"Images/pancakes.jpg";
+  background-image:url("Images/pancakes.jpg");
 }
 .vegan {
   float: right;
@@ -82,3 +83,29 @@ small {opacity: 0;
   small{ font-size:16px;
 }
 }
+}
+
+
+html {
+  background-image:url("Images/background.jpg");
+  background-attachment: fixed;
+   background-repeat: no-repeat;
+
+}
+
+body {
+		width:1000px;
+		font-family:'Londrina Shadow';
+		margin-left:auto;
+		margin-right:auto;
+		padding:25px;
+		background-color:#ffffcc;
+		border-color:#ffdd99;
+		border-width:15px;
+		text-align: center;
+}
+
+table {
+  margin-left:auto;
+  margin-right:auto
+  }
