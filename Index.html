@@ -23,23 +23,33 @@
   <h1>Kind Cooking</h1>
   <h2>The guilt-free way to eat day-to-day</h2>
 
-  <div class="starter">
-    <p> Avocado Tomato Bruschetta <span class="vegan">-Vegan friendly</span><br />
-    <small>Italian grilled bread topped with avacado and tomato. </small></p>
+<div class="container">
+<div class="row">
+  <div class="col-xs-4">
+    <div class="starter">
+      <p> Avocado Tomato Bruschetta <span class="vegan">-Vegan friendly</span><br />
+        <small>Italian grilled bread topped with avacado and tomato. </small></p>
+    </div>
+    <img src="Images/tomato.png" width=600>
   </div>
-  <img src="Images/tomato.png" width=600>
 
-  <div class="main">
-    <p>Vegetable topped pizza <span class="vegan">-Vegan friedly</span><br />
-    <small>Over baked flatbread topped with vegetables.</small></p>
+  <div class="col-xs-4">
+    <div class="main">
+      <p>Vegetable topped pizza <span class="vegan">-Vegan friedly</span><br />
+      <small>Over baked flatbread topped with vegetables.</small></p>
+    </div>
+    <img src="Images/pizza.jpg" width=600>
   </div>
-  <img src="Images/pizza.jpg" width=600>
 
-  <div class="dessert">
-    <p>Pancakes <span class="vegan">-Vegan friendly </span><br />
-    <small>Sweet flat cake topped with summer berries.</small></p>
+  <div class="col-xs-4">
+    <div class="dessert">
+      <p>Pancakes <span class="vegan">-Vegan friendly </span><br />
+      <small>Sweet flat cake topped with summer berries.</small></p>
+    </div>
+    <img src="Images/pancakes.jpg" width=600>
   </div>
-  <img src="Images/pancakes.jpg" width=600>
+</div>
+</div>
 
   <script> $('div').on('click', function() {$(this).toggleClass('show-description');});</script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
