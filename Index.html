@@ -1,23 +1,24 @@
 <!DOCTYPE html>
-  <head>
-    <title> Kind cooking
-    </title>
-<link rel='stylesheet' type='text/css' href='teamproject.css' >
-  </head>
 
-  <body class="container">
+<head>
+  <title> Kind cooking
+  </title>
+  <link rel='stylesheet' type='text/css' href='teamproject.css'>
+</head>
 
-<img src="Images/banner.jpg" alt="Kind cooking banner" width="980" height="350">
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="Index.html">Kind Cooking</a>
-        <a class="nav-link" href="about.html">About us</a>
-        <a class="nav-link" href="Starter.html">Starters</a>
-        <a class="nav-link" href="Mains.html">Mains</a>
-        <a class="nav-link" href="Desserts.html">Desserts</a>
-                    <span class="navbar-toggler-icon"></span>
-        </div>
-        </nav>
+<body class="container">
+
+  <img src="Images/banner.jpg" alt="Kind cooking banner" width="980" height="350">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="Index.html">Kind Cooking</a>
+      <a class="nav-link" href="about.html">About us</a>
+      <a class="nav-link" href="Starter.html">Starters</a>
+      <a class="nav-link" href="Mains.html">Mains</a>
+      <a class="nav-link" href="Desserts.html">Desserts</a>
+      <span class="navbar-toggler-icon"></span>
+    </div>
+  </nav>
 
 
   <h1>Kind Cooking</h1>
@@ -25,23 +26,28 @@
 
   <div class="starter">
     <p> Avocado Tomato Bruschetta <span class="vegan">-Vegan friendly</span><br />
-    <small>Italian grilled bread topped with avacado and tomato. </small></p>
+      <small>Italian grilled bread topped with avacado and tomato. </small></p>
   </div>
   <img src="Images/tomato.png" width=600>
 
   <div class="main">
     <p>Vegetable topped pizza <span class="vegan">-Vegan friedly</span><br />
-    <small>Over baked flatbread topped with vegetables.</small></p>
+      <small>Over baked flatbread topped with vegetables.</small></p>
   </div>
   <img src="Images/pizza.jpg" width=600>
 
   <div class="dessert">
     <p>Pancakes <span class="vegan">-Vegan friendly </span><br />
-    <small>Sweet flat cake topped with summer berries.</small></p>
+      <small>Sweet flat cake topped with summer berries.</small></p>
   </div>
   <img src="Images/pancakes.jpg" width=600>
 
-  <script> $('div').on('click', function() {$(this).toggleClass('show-description');});</script>
+  <script>
+    $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+    });
+  </script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
-  </body>
-  </html>
+</body>
+
+</html>
