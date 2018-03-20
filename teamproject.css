@@ -43,7 +43,15 @@ table {
 
 .navbar {
   background-color: #b30047;
-  overflow: hidden;
+  list-style: none;
+}
+
+.navbar a.dropdown-item {
+  color: #b30047;
+}
+
+.navbar a.dropdown-item:hover {
+  text-decoration: underline;
 }
 
 .navbar a {
@@ -90,4 +98,8 @@ p {}
 
 .recipe-header-image {
   max-height: 80vh;
+}
+
+ol li {
+  padding: 0.8em 0;
 }
