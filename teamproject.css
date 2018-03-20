@@ -72,3 +72,11 @@ p {}
   border-radius: 5%;
   padding: 10px;
 }
+
+.recipe-image {
+  max-width: 100%;
+  max-height: 250px;
+  width: auto;
+  height: auto;
+  margin: 2px auto;
+}
