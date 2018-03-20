@@ -80,3 +80,14 @@ p {}
   height: auto;
   margin: 2px auto;
 }
+
+.recipe-description, .recipe-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.recipe-header-image {
+  max-height: 80vh;
+}
