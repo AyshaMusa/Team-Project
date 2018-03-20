@@ -54,11 +54,11 @@ small {opacity: 0;
    }
 
 .starter{
-  background-image:url("Images/bruschetta.jpg");
+  background-image:url("Images/tomato.jpg");
 }
-{
-  background-image:url("Images/pizza.jpg");
-}*/
+.main{
+background-image:url("Images/pizza.jpg");
+}
 .dessert{
   background-image:url("Images/pancakes.jpg");
 }
